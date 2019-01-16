@@ -21,6 +21,6 @@ repository to your desktop.
 
 Now, simply double click on the *index.html* file and your default browser would load the webpage.
 
-##Languages Used
+## Languages Used
 
 We are using **html**, **css**, **bootstrap** and a little **javascript** in this project.
