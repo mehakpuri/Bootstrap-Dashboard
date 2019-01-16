@@ -1,0 +1,443 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <script>
+          $(document).ready(function(){
+            $(".rotate").click(function () {
+                $(this).toggleClass("down");
+            });
+          });
+      </script>
+  </head>
+  <body>
+      
+      <nav class="navbar navbar-fixed-top" role="navigation" style="background-color: #f49100;">
+          <div class="header"  id="head-nav">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="color:white;font-size:25px;">J</a>
+                    <a class="navbar-brand hide-menu" href="#" style="padding-left:0;color:white;font-size:25px;">Jhintroo</a>
+                </div>
+                <div class="navbar-collapse">
+                        <ul class="nav navbar-nav" style="top:0;">
+                            <li class="nav-item"><a href="#" class="nav-link clr1 a01"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
+                            <li class="dropdown nav-item" style="position:static;">
+                                <a href="#" class="clr1 nav-link dropdown-toggle a01" data-toggle="dropdown"><span class="glyphicon glyphicon-th-large"></span></a>
+                                <div class="dropdown-menu" style="width:100%;background-color: white;overflow: auto;">
+                                    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                                        <h2 style="padding-left:20px;text-align:left;">CONTACT US</h2>
+                                        <form action="#">
+                                            <div class="form-group" style="padding-left:20px;">
+                                                <input type="text" id="name" placeholder="Enter name" name="name" style="margin:10px;height:30px;"><br>
+                                                <input type="email" id="email" placeholder="Enter email" name="email" style="margin:10px;height:30px;"><br>
+                                                <input type="text" id="message" placeholder="Enter message" name="message" style="margin:10px;height:30px;"><br>
+                                                <button type="button" class="btn btn-primary" id="submit" name="submit" style="margin:10px;">Submit</button>
+                                            </div>
+                                        </form>
+                    
+                                    </div>
+                    
+                                    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                                        <h3 style="margin:20px;">List Style</h3>
+                                        <ul class="list1" style="font-size:20px; padding:10px;">
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                        
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                                        <h3 style="margin:20px;">List Style</h3>
+                                        <ul class="list1" style="font-size:20px; padding:10px;">
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                        
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                                        <h3 style="margin:20px;">List Style</h3>
+                                        <ul class="list1" style="font-size:20px; padding:10px;">
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                            <li><a href="#">This is a link</a></li>
+                                        
+                                        </ul>
+                                    </div>
+           
+                                </div>
+                            </li>
+                        </ul>
+                       
+                            <ul class="nav navbar-nav" style="float:right;">
+                            <li class="nav-item"><a href="#" class="nav-link clr1 a01"><span class="glyphicon glyphicon-search"></span></a></li>
+                            <li class="nav-item dropdown" style="position:static;">
+                                <a href="#" class="clr1 nav-link dropdown-toggle a01" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-bell"></span>
+                                <div class="notify">
+                                    <span class="heartbit"></span>
+                                    <span class="point"></span>
+                                </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right " id="d1">
+                                    <ul>
+                                        <li>
+                                            <div class="drop-title">Notifications</div>
+                                        </li>
+                                        <li>
+                                            <div class="drop-title" style="position: relative;">
+                                                <a href="#">
+                                                    <div class="btn btn-danger circle"><i class="fa fa-link"></i></div>
+                                                    <div class="content">
+                                                        <h5>This is title</h5> <span class="content1">Just see the my new admin!</span> <span class="content1">9:30 AM</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="drop-title" style="position: relative;">
+                                                <a href="#">
+                                                    <div class="btn btn-success circle"><i class="fa fa-calendar"></i></div>
+                                                    <div class="content">
+                                                        <h5>This is another title</h5> <span class="content1">Just a reminder that you have event!</span> <span class="content1">9:10 AM</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="drop-title" style="position: relative;">
+                                                <a href="#">
+                                                    <div class="btn btn-info circle"><i class="fa fa-cog"></i></div>
+                                                    <div class="content">
+                                                        <h5>This is another title</h5> <span class="content1">Just a reminder that you have event!</span> <span class="content1">9:10 AM</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="drop-title" style="position: relative;">
+                                                <a href="#">
+                                                    <div class="btn btn-info circle"><i class="fa fa-cog"></i></div>
+                                                    <div class="content">
+                                                        <h5>This is another title</h5> <span class="content1">Just a reminder that you have event!</span> <span class="content1">9:10 AM</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="drop-title1" style="position: relative;">
+                                                <a href="#">
+                                                    <strong>Check all notifications</strong>
+                                                    <i class="fa fa-angle-right"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown" style="position:static;">
+                                <a href="#" class="clr1 nav-link dropdown-toggle a01" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                    <div class="notify1">
+                                        <span class="heartbit1"></span>
+                                        <span class="point1"></span>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" id="d2">
+                                    <ul>
+                                        <li>
+                                            <div class="drop-title">You have 4 new messages</div>
+                                        </li>
+                                        <li>
+                                            <div class="drop-title" style="position: relative;">
+                                                <a href="#">
+                                                    <div class="btn btn-danger circle"></div>
+                                                    <div class="content">
+                                                        <h5>Michael Qin</h5> <span class="content1">Just see the my new admin!</span> <span class="content1">9:30 AM</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="drop-title" style="position: relative;">
+                                                <a href="#">
+                                                    <div class="btn btn-success circle"></div>
+                                                    <div class="content">
+                                                        <h5>John Doe</h5> <span class="content1">Just a reminder that you have event!</span> <span class="content1">9:10 AM</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="drop-title" style="position: relative;">
+                                                <a href="#">
+                                                    <div class="btn btn-info circle"></div>
+                                                    <div class="content">
+                                                        <h5>Mr. John</h5> <span class="content1">Just a reminder that you have event!</span> <span class="content1">9:10 AM</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="drop-title" style="position: relative;">
+                                                <a href="#">
+                                                    <div class="btn btn-info circle"></div>
+                                                    <div class="content">
+                                                        <h5>Michael Qin</h5> <span class="content1">Just a reminder that you have event!</span> <span class="content1">9:10 AM</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="drop-title1" style="position: relative;">
+                                                <a href="#">
+                                                    <strong>See all e-Mails</strong>
+                                                    <i class="fa fa-angle-right"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link" style="margin-right:10px;"><img class="img-circle" alt="a"></a></li>
+                        </ul>
+                    
+                  
+                        
+                </div><!-- /.navbar-collapse -->
+            </div>
+      </nav>   
+      <!-- /.container-fluid -->
+
+
+      <div class="left-sidebar showLarge showTablet hide1">
+          <nav class="sidebar-nav active">
+              <ul id="sidebarnav">
+                  <li class="nav-label"><span class="hide-menu">HOME</span></li>
+                  <li class="active">
+                      <a href="#" class="clr">
+                          <div class="dropdown dropright">
+                            <i class="fa fa-dashboard first dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                              <div class="dropdown-menu drop1" style="z-index:-1;padding:0 25px;margin-left:0px;top:0;float:left;width:13.8em;" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Dashboard</a>
+                              </div>
+                              <div class="dropdown-menu drop1" style="padding:0 15px;margin-left:33px;top:3.1em;" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Ecommerce</a>
+                                <a class="dropdown-item" href="#">Analytics</a>
+                              </div>
+                              <a href="#"><span class="hide-menu clr">Dashboard<span class="glyphicon glyphicon-chevron-right second rotate" data-toggle="collapse" data-target="#demo"></span></span></a>
+                          </div>
+                      </a>
+                  </li>
+                  <div class="shift">
+                      <li class="active collapse" id="demo"><a href="#" class="clr"><span class="hide-menu">E-commerce</span></a></li>
+                      <li class="collapse" id="demo"><a href="#" class="clr" ><span class="hide-menu">Analytics</span></a></li>
+                  </div>      
+                  <li class="nav-label"><span class="hide-menu">Apps</span></li>
+                  <li>
+                      <a href="#" class="clr">
+                          <div class="dropdown dropright">
+                            <i class="fa fa-envelope first dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                              <div class="dropdown-menu drop1" style="z-index:-1;padding:0 25px;margin-left:0px;top:0;float:left;width:13.8em;" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Email</a>
+                              </div>
+                              <div class="dropdown-menu drop1" style="padding:0 15px;margin-left:33px;top:3.1em;" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Compose</a>
+                                <a class="dropdown-item" href="#">Read</a>
+                                <a class="dropdown-item" href="#">Inbox</a>
+                              </div>
+                              <span class="hide-menu clr">Email<span class="glyphicon glyphicon-chevron-right second rotate" data-toggle="collapse" data-target="#demo1"></span></span>
+                           </div>
+                      </a>
+                  </li>
+                  <div class="shift">
+                      <li class="active collapse" id="demo1"><a href="#" class="clr"><span class="hide-menu">Compose</span></a></li>
+                      <li class="collapse" id="demo1"><a href="#" class="clr" ><span class="hide-menu">Read</span></a></li>
+                      <li class="collapse" id="demo1"><a href="#" class="clr" ><span class="hide-menu">Inbox</span></a></li>
+                  </div>
+                      
+                  
+                  <li><a href="#" class="clr"><span class="fa fa-signal first"></span><span class="hide-menu">Charts<span class="glyphicon glyphicon-chevron-right second rotate"></span></span></a></li>
+                  <li class="nav-label"><span class="hide-menu">Features</span></li>
+                  
+              </ul>
+          </nav>
+      </div>
+       
+                <div class="row header1">
+                    <div class="col-md-5">
+                        <h4 style="color: blue;font-size: 22px;" >Dashboard</h4>
+                    </div>
+                    <div class="col-md-7">
+                        <span class="dash1">
+                            <ol class="breadcrumb" style="float:right;background-color:transparent;">
+                                <li class="breadcrumb-item">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="breadcrumb-item-active">
+                                    <a href="#">Dashboard</a>
+                                </li>
+                            </ol>        
+                        </span>
+                    </div>
+                </div>
+      
+            <div class ="row header2">
+                <div class="col-md-3">
+                    <div class="cards">
+                        <div class="card-block">
+                            <i class="fa fa-money f-s-40 color-primary" aria-hidden="true"></i>
+                            <h3 class="card-title" style="padding-bottom:1em">Offline Billing</h3>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cards">
+                        <div class="card-block">
+                            <i class="fa fa-fax f-s-40 color-success"></i>
+                            <h3 class="card-title"  style="padding-bottom:1em">Online Orders</h3>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cards">
+                        <div class="card-block">
+                            <i class="fa fa-newspaper-o color-danger"  aria-hidden="true"></i>
+                            <h3 class="card-title"  style="padding-bottom:1em">Publish Ad</h3>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cards ">
+                        <div class="card-block">
+                            <i class="fa fa-usd f-s-40 color-warning"></i>
+                            <h3 class="card-title"  style="padding-bottom:1em">Cash Drawer</h3>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+           <div class="row browser">
+              <div class="col-md-8 col-lg-8">
+                  <div class="card">
+                    <div class="card-block">
+                        <h3>
+                        Recent Orders
+                        </h3>
+                        <div class="table-responsive">
+                            <table class="table t1" style="width:100%;">
+                      <thead>
+                        <th>#</th>
+                          <th>Name</th>
+                          <th>Product</th>
+                          <th>Quantity</th>
+                          <th>Status</th>
+                      </thead>
+                      <tbody>
+                          <td>1</td>
+                        <td>John</td>
+                          <td>Iphone</td>
+                          <td>1 piece</td>
+                          <td>Done</td>
+                      </tbody>
+                      <tbody>
+                          <td>2</td>
+                        <td>John</td>
+                          <td>Iphone</td>
+                          <td>1 piece</td>
+                          <td>Done</td>
+                      </tbody>
+                       <tbody>
+                          <td>3</td>
+                        <td>John</td>
+                          <td>Iphone</td>
+                          <td>1 piece</td>
+                          <td>Done</td>
+                      </tbody>
+                       <tbody>
+                          <td>4</td>
+                        <td>John</td>
+                          <td>Iphone</td>
+                          <td>1 piece</td>
+                          <td>Done</td>
+                      </tbody>
+                    </table>
+                        </div>
+                    
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <p class="pa"><b>iMacs</b>
+                              <span class="pull-right"><b>85%</b></span>
+                          </p>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                            </div>
+                          </div>
+                          <p class="pa"><b>iBooks</b>
+                              <span class="pull-right"><b>90%</b></span>
+                          </p>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                            </div>
+                          </div>
+                          <p class="pa"><b>iPhone</b>
+                              <span class="pull-right"><b>65%</b></span>
+                          </p>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                            </div>
+                          </div>
+                          <p class="pa"><b>Samsung</b>
+                              <span class="pull-right"><b>65%</b></span>
+                          </p>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                            </div>
+                          </div>
+                          <p class="pa"><b>Android</b>
+                              <span class="pull-right"><b>65%</b></span>
+                          </p>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+      <div class="row footer1">
+          <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 contact1">
+            <span style="font-size: 30px;color:white;padding-left: 30px">Contact Us</span><br>
+            <span style="color:white;padding-left: 30px">Sec-4, MDC,Panchkula, Haryana</span>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <h4 class="connect1" style="color:white;">Connect</h4>
+            <a href="#"><i class="fa fa-facebook-f" style="color:white;padding-left:70px;padding-right: 10px;"></i></a>
+              <a href="#"><i class="fa fa-twitter" style="color:white;padding-left:10px;padding-right: 10px;"></i></a>
+              <a href="#"><i class="fa fa-google" style="color:white;padding-left:10px;padding-right: 10px;"></i></a>
+              <a href="#"><i class="fa fa-linkedin" style="color:white;padding-left:10px;padding-right: 10px;"></i></a>
+              <a href="#"><i class="fa fa-instagram" style="color:white;padding-left:10px;padding-right: 10px;"></i></a>
+          </div>
+          
+      
+      </div>
+      
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  </body>
+</html>
